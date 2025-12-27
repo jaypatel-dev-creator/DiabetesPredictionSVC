@@ -4,6 +4,33 @@ A machine learning project that predicts the likelihood of diabetes using clinic
 The model is built with a strong focus on **medical relevance**, **proper evaluation**, and **industry-aligned ML practices**.
 
 ---
+## Dataset Information
+
+The dataset used in this project is the **Pima Indians Diabetes Database**, obtained from Kaggle.
+
+🔗 **Dataset Link:**  
+https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database
+
+### Dataset Description
+The dataset contains medical diagnostic measurements for female patients of Pima Indian heritage and is commonly used for binary classification tasks in healthcare.
+
+### Features
+- Pregnancies  
+- Glucose  
+- BloodPressure  
+- SkinThickness  
+- Insulin  
+- BMI  
+- DiabetesPedigreeFunction  
+- Age  
+
+### Target Variable
+- **Outcome**
+  - `0` → Non-Diabetic  
+  - `1` → Diabetic  
+
+---
+
 
 ##  Model Training Overview
 
@@ -21,7 +48,13 @@ The model is built with a strong focus on **medical relevance**, **proper evalua
 - Precision  
 - Recall  
 - F1-score  
-- Confusion Matrix  
+- Confusion Matrix
+
+ ##  Results Preview
+
+### Model Evaluation Output
+![Model Evaluation Metrics](screenshots/model_evaluation.png)
+
 
 ### Performance Summary
 
